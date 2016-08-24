@@ -1,6 +1,6 @@
 function reducer(state = {value:''}, action) {
   switch(action.type){
-    case "GETTVALUE":
+    case "SECTION":
       return {
         value : action.value
       };
